@@ -1,0 +1,74 @@
+.table1{
+  width:200px;
+  text-align:center;
+}
+.table2{
+  width:900px;
+  height:400px;
+}
+
+
+.ball1{
+  height:250px;
+  width:250px;
+   margin-left:100px;
+   border-radius: 20px;
+  animation:rotateright 5s 3 linear;  
+  
+} 
+
+@keyframes rotateright{
+  0% {
+    transform: translate(0,0) rotate(0deg);
+   }
+30% {
+    transform: translate(150px,0px) rotate(180deg);
+    }
+50% {
+     transform: translate(300px, 0) rotate(360deg);
+     }
+}
+
+
+
+.ball2{
+  height:250px;
+  width:250px;
+  margin-left:400px;
+  border-radius: 30px;
+  animation:rotateleft 5s 3 linear;
+}
+
+
+@keyframes rotateleft{
+  0%{
+    transoform:translate(0,0) rotate(0deg);
+  }
+  30%{
+    transform:translate(-150px,0px) rotate(180deg);
+  }
+  50%{
+    transform: translate(-300px,0) rotate(360deg);
+  }
+}
+
+
+.ball3{
+  height:250px;
+  width:250px;
+  margin-left:350px;
+  border-radius: 40px;
+  animation:rotatebottom 5s 3 linear;
+}
+
+@keyframes rotatebottom{
+  0%{
+    transform:translate(0,0) rotate(0deg);
+  }
+  30%{
+    transform: translate(0,150px) rotate(180deg);
+  }
+  50%{
+    transform:translate(0,300px) rotate(360deg);
+  }
+}
